@@ -1,0 +1,98 @@
+[
+  {
+    "id": "auraphone-x12",
+    "name": "AuraPhone X12",
+    "price": 42999,
+    "originalPrice": 46999,
+    "images": ["/src/assets/products/auraphone-x12.png"],
+    "category": "Electronics",
+    "variants": [
+      { "id": "128gb", "label": "128GB", "type": "storage" },
+      { "id": "256gb", "label": "256GB", "type": "storage" }
+    ],
+    "specifications": [
+      { "label": "Display", "value": "6.5\" AMOLED" },
+      { "label": "Battery", "value": "5000mAh" },
+      { "label": "Camera", "value": "50MP Triple" }
+    ],
+    "emiPlans": [
+      { "tenureMonths": 3, "monthlyAmount": 14333, "noCostEmi": true, "totalPayable": 42999 },
+      { "tenureMonths": 6, "monthlyAmount": 7167, "noCostEmi": true, "totalPayable": 43002 },
+      { "tenureMonths": 12, "monthlyAmount": 3825, "interestRate": 10, "totalPayable": 45900 }
+    ]
+  },
+  {
+    "id": "stridebook-air-14",
+    "name": "StrideBook Air 14",
+    "price": 68990,
+    "images": ["/src/assets/products/stridebook-air-14.png"],
+    "category": "Electronics",
+    "variants": [
+      { "id": "256gb-ssd", "label": "256GB SSD", "type": "storage" },
+      { "id": "512gb-ssd", "label": "512GB SSD", "type": "storage" }
+    ],
+    "emiPlans": [
+      { "tenureMonths": 6, "monthlyAmount": 11499, "noCostEmi": true, "totalPayable": 68994 },
+      { "tenureMonths": 12, "monthlyAmount": 6041, "interestRate": 9, "totalPayable": 72492 }
+    ]
+  },
+  {
+    "id": "pulsebuds-pro",
+    "name": "PulseBuds Pro",
+    "price": 5499,
+    "originalPrice": 6999,
+    "images": ["/src/assets/products/pulsebuds-pro.png"],
+    "category": "Audio",
+    "specifications": [
+      { "label": "Battery life", "value": "30 hrs (with case)" },
+      { "label": "Noise Cancellation", "value": "Active ANC" }
+    ],
+    "emiPlans": [
+      { "tenureMonths": 3, "monthlyAmount": 1833, "noCostEmi": true, "totalPayable": 5499 }
+    ]
+  },
+  {
+    "id": "orbitwatch-se",
+    "name": "OrbitWatch SE",
+    "price": 8999,
+    "images": ["/src/assets/products/orbitwatch-se.png"],
+    "category": "Wearables",
+    "variants": [
+      { "id": "black", "label": "Black", "type": "color" },
+      { "id": "silver", "label": "Silver", "type": "color" },
+      { "id": "rose-gold", "label": "Rose Gold", "type": "color" }
+    ],
+    "emiPlans": [
+      { "tenureMonths": 3, "monthlyAmount": 3000, "noCostEmi": true, "totalPayable": 9000 },
+      { "tenureMonths": 6, "monthlyAmount": 1633, "interestRate": 8, "totalPayable": 9798 }
+    ]
+  },
+  {
+    "id": "trailguard-riding-helmet",
+    "name": "TrailGuard Riding Helmet",
+    "price": 3299,
+    "images": ["/src/assets/products/trailguard-riding-helmet.png"],
+    "category": "Gear",
+    "description": "Lightweight full-face helmet with reinforced shell and ventilated lining.",
+    "emiPlans": [
+      { "tenureMonths": 3, "monthlyAmount": 1100, "noCostEmi": true, "totalPayable": 3300 }
+    ]
+  },
+  {
+    "id": "aerofresh-350-air-purifier",
+    "name": "AeroFresh 350 Air Purifier",
+    "price": 11499,
+    "originalPrice": 13999,
+    "images": ["/src/assets/products/aerofresh-350-air-purifier.png"],
+    "category": "Home Appliances",
+    "specifications": [
+      { "label": "Coverage Area", "value": "350 sq. ft." },
+      { "label": "Filter Type", "value": "HEPA H13" }
+    ],
+    "emiPlans": [
+      { "tenureMonths": 3, "monthlyAmount": 3833, "noCostEmi": true, "totalPayable": 11499 },
+      { "tenureMonths": 6, "monthlyAmount": 2025, "interestRate": 11, "totalPayable": 12150 },
+      { "tenureMonths": 12, "monthlyAmount": 1079, "interestRate": 13, "totalPayable": 12948 }
+    ]
+  }
+]
